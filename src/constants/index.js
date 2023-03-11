@@ -15,14 +15,19 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  excel,
+  mac,
+  agro,
+  peer,
+  board,
+  zencode,
+  tamasha,
+  techcurator,
+  girlscript,
+
+
+
 } from "../assets";
 
 export const navLinks = [
@@ -116,26 +121,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Problem Setter",
+    company_name: "Techcurator",
+    icon: techcurator,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "November 2021 - Jan 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+
+      "Active listening to the client and understand the customer requirements with the effective team communication designing the test cases.",
+
+      "Creating a programming questions and End‑to‑end completion of questions from client‑side and after communicate effectively deploying the problems with solutions and test cases on the shared platform. ",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Backend Developer",
+    company_name: "Tamasha",
+    icon: tamasha,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2021 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Node.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -143,10 +148,10 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "GSSOC'22",
+    icon: girlscript,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: " 2022 - Jan 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -154,19 +159,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
@@ -198,68 +191,98 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Excel Sheet",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    "Excel Clone is a web-based platform that offers numerous features similar to Microsoft Excel. It is a user-friendly platform that allows you to perform various tasks such as creating a new sheet, deleting a sheet, and renaming a sheet. It also allows you to perform various operations such as addition, subtraction, multiplication, and division.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: excel,
+    source_code_link: "https://excel-clone-two.vercel.app/",
   },
+  {
+    name: "Mac OS Clone",
+    description:
+      "Mac OS Clone is a web application that allows you to enjoy numerous features of Apple Sierra OS, including playing music, using LinkedIn, and accessing Excel Clone. With its impressive capabilities, Mac OS Clone offers a user-friendly platform for various tasks.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mac,
+    source_code_link: "https://mac-os-clone-orcin.vercel.app/",
+  },
+  {
+    name: "Peer 2 Code",
+    description:
+      "A comprehensive communication platform that enables users to communicate with their peers via voice and video calls while sharing its editor and whiteboard in an encrypted environment. With its advanced features, this platform provides a secure and user-friendly environment for effective collaboration.",
+    tags: [
+      {
+        name: "react-js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "green-text-gradient",
+      },
+      {
+        
+        name: "peerjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "socket.io",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: peer,
+    source_code_link: "https://github.com/creator79/Editor-React.git",
+  },
+  {
+    name: "Zencode",
+    description:
+      "Zencode is a website that compresses and decompresses large files while demonstrating the decompression process through Huffman coding, a lossless data compression method. My project involves encoding data (Compress Data) and decoding it (Huffman Algorithm). The tree structure displays how the encoding was performed during the compression process..",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+     
+    ],
+    image: zencode,
+    source_code_link: "https://creator79.github.io/Zencode/",
+  },
+
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
