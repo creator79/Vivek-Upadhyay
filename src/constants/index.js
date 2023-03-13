@@ -25,6 +25,7 @@ import {
   tamasha,
   techcurator,
   girlscript,
+  chatgpt,
 
 
 
@@ -281,7 +282,29 @@ const projects = [
     image: zencode,
     source_code_link: "https://creator79.github.io/Zencode/",
   },
-
+  {
+    name: "ChatSonic",
+    description:
+      "ChatSonic is a web application that allows users to communicate with Ai where they can ask questions and get answers. ",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+      {
+        
+        name: "openai",
+        color: "pink-text-gradient",
+      },
+     
+    ],
+    image: chatgpt,
+    source_code_link: "https://chatgpt-plum-alpha.vercel.app/",
+  },
 
 ];
 

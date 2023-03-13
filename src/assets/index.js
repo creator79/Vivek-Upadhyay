@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import logo2 from "./logo2.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -38,6 +39,7 @@ import agro from "./img/agro.png";
 import peer from "./img/peer.png";
 import board from "./img/board.png";
 import zencode from "./img/zencode.png";
+import chatgpt from "./img/chatgpt.png";
 
 export {
   logo,
@@ -61,6 +63,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  logo2,
   
   carrent,
   jobit,
@@ -72,6 +75,7 @@ export {
   peer,
   board,
   zencode,
+  chatgpt,
 
 
   tamasha,
