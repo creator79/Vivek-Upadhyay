@@ -26,9 +26,6 @@ import {
   techcurator,
   girlscript,
   chatgpt,
-
-
-
 } from "../assets";
 
 export const navLinks = [
@@ -44,6 +41,7 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+ 
 ];
 
 const services = [
@@ -52,7 +50,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Js Developer",
     icon: mobile,
   },
   {
