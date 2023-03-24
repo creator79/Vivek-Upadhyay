@@ -8,7 +8,8 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
-import Resume from "./Resume"
+import Resume from "./Resume";
+import Button from "./Button";
 
 
 
@@ -26,5 +27,6 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   Resume,
+  Button,
   StarsCanvas
 };

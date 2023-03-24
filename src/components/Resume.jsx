@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
-import css from "../Resume.css";
+import "../Resume.css";
 
 function Resume() {
   const resumeLink =
@@ -19,7 +19,7 @@ function Resume() {
 
    <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-[5vh] text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
 
         <p className={styles.sectionSubText}>Resume</p>
