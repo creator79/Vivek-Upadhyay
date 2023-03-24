@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { styles } from "../styles";
+import css from "../Resume.css";
 
 function Resume() {
   const resumeLink =
@@ -13,26 +15,27 @@ function Resume() {
   };
 
   return (
-   <div class ="aling-content-center">
+   <div >
 
    <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
+
+        <p className={styles.sectionSubText}>Resume</p>
+       <p className="mt-3">
       Welcome to my portfolio website! If you're here, it's likely that you're interested in learning more about me and my skills. If you want to take a closer look at my professional experience, click on the <strong>"Resume"</strong> button below. Get ready to be impressed with my expertise in various fields such as project management, content creation, and social media strategy. My resume highlights my achievements, education, and work history, demonstrating my dedication to excellence and my commitment to delivering high-quality work. Don't miss out on the chance to see my impressive resume and learn more about what I can bring to your team. Click that button now!
+      </p>
       
       </motion.p>
      
+<div className="css">
+      <div className="card">
+      
+        <button className ="card2" onClick={handleResumeClick}> Download </button>
+      </div>
 
-  <button 
-  onClick={handleResumeClick} 
-  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded text-center mx-auto md:mx-[50vh] mt-6 xl:mt-[3vh] mb-[-80vh] md:mb-0 xl:mb-0 hover:shadow-blue" 
-  
-
-
->
-  Resume
-</button>
+      </div>
 
 </div>
   );
