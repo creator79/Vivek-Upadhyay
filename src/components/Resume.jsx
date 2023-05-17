@@ -7,7 +7,7 @@ import "../Resume.css";
 
 function Resume() {
   const resumeLink =
-    "https://drive.google.com/file/d/1oWUmiVPp3xhAoEdc-6LRozZrrEadk8AT/view?usp=sharing";
+    // "https://drive.google.com/file/d/1oWUmiVPp3xhAoEdc-6LRozZrrEadk8AT/view?usp=sharing";
 
   const handleResumeClick = (e) => {
     e.preventDefault();
